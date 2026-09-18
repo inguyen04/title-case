@@ -10,7 +10,7 @@ def my_cap(text):
 def my_title(text):
     words = []
     for t in text.split():
-        if t not in ("the", "a", "an", "in", "on"):
+        if t not in ("the", "a", "an", "and", "but"):
             words.append(my_cap(t))
         else:
             words.append(t)
